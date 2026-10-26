@@ -1,28 +1,44 @@
-*{
-    padding:0;
-    margin:0;
-}
-
 body{
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    flex-direction: column;
-    margin: 20px;
-    padding: 20px;
-    background-color: greenyellow;
-}
-
-.main-game{
-    height: 500px;
-    border: 2px black solid;
-    width: 700px;
-    background-color: blue;
-}
-
-.heading{
-    font-size: large;
+    text-align: center;
     font-family: Arial, Helvetica, sans-serif;
-    font-weight: bolder;
-    color: palevioletred
+}
+
+#board{
+    height: 540px;
+    width: 630px;
+    border: 10px darkblue solid;
+    background-color: blue;
+
+    margin: 0 auto;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.tile{
+    height: 70px;
+    width: 70px;
+    margin: 5px;
+
+    background-color: white;
+    border-radius: 50%;
+    border: 5px navy solid;
+}
+
+
+.red-piece{
+    height: 70px;
+    width: 70px;
+    background-color: red;
+    border: 5px darkred solid;
+    border-radius: 50%;
+}
+
+.yellow-piece{
+    height: 70px;
+    width: 70px;
+    background-color: yellow;
+    border: 5px rgb(142, 142, 1) solid;
+    border-radius: 50%;
+    
+
 }
